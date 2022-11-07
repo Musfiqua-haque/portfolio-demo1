@@ -1,0 +1,25 @@
+label{
+    color: rgb(144, 229, 229);
+    margin-bottom: .7rem;
+    font-size: 1.2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    margin: auto;
+    max-width: 700px;
+}
+
+form input, form textarea{
+    padding: 10px 8px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: rgba(126, 117, 117, 0.7);
+    box-shadow: 2px 2px rgba(215, 210, 210, 0.7);
+}
+
+form .btn{
+    margin-top: 1rem;
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+.hero-background{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, .78);
+    position: relative; 
+    background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.hero-des{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hero-des h2{
+    font-size: 2rem;
+}
+
+.hero-des p{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:640px){
+    .hero-des h2{
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    
+    .hero-des p{
+        font-size: 1.5rem;
+        color: aliceblue;
+
+    }
+    
+}
